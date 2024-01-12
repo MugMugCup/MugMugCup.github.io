@@ -1,0 +1,297 @@
+@font-face {
+    font-family: "azuki";
+    src: url("./azuki.ttf");
+}
+
+
+body
+{
+    margin: 0;
+    background-image: url("./bkg.png");
+    background-size: 50vw;
+    background-repeat: repeat;
+    font-size: 1.7vw;
+    font-family: "azuki";
+    font-weight: bold;
+}
+
+
+header
+{
+    height: 6vw;
+    width: 100%;
+    background-color: rgba(53, 53, 53, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo
+{
+    height: 4vw;
+    margin: 1vw;
+    float: left;
+}
+
+
+/*トップ画*/
+.top-container
+{
+    padding: 8vw 2vw;
+}
+
+.top-wrapper
+{
+    height: 33vw;
+    background-image: url("./top.png");
+    background-size: cover;
+    color: white;
+}
+
+.top-wrapper h1
+{
+    margin: 0;
+    font-size: 5vw;
+    letter-spacing: 0.2vw;
+    line-height: 6vw;
+}
+
+.top-wrapper-p
+{
+    margin-top: 2vw;
+}
+
+.top-wrapper p
+{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+
+
+/* ニュース */
+.news-wrapper
+{
+    text-align: center;
+}
+
+.news-wrapper-header
+{
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+.newses-container
+{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.news-container
+{
+    width: fit-content;
+    padding-bottom: 1.5vw;
+    text-align: left;
+}
+
+.news-container p
+{
+    margin: 0.7vw;
+    line-height: 3vw;
+    display: inline;
+}
+
+
+/* 活動内容 */
+.activity-wrapper
+{
+    display: block;
+}
+
+.activity-container
+{
+    padding: 0vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-container-p
+{
+    padding: 0 3vw;
+    line-height: 3vw;
+}
+
+.activity-container-p-header
+{
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+.activity-container-img
+{
+    margin: auto;
+}
+
+.activity-container-img img
+{
+    width: 40vw;
+    padding-top: 3vw;
+}
+
+
+/* ポイント */
+.points-wrapper
+{
+    padding-bottom: 2vw;
+}
+
+.points-wrapper-header
+{
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.points-container
+{
+    padding-left: 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.point-container
+{
+    width: 30vw;
+    padding: 2vw;
+    margin: 1vw;
+    font-size: 1.3vw;
+    position: relative;
+}
+
+.point-container-header
+{
+    font-size: 2vw;
+    text-align: center;
+    margin-right: 1.3vw;
+}
+
+.point-container-content
+{
+    line-height: 3vw;
+    margin-right: 1vw;
+}
+
+.point-container img
+{
+    width: 30vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -10;
+}
+
+
+/* 入部案内 */
+.joining-wrapper
+{
+    margin: 5vw;
+    padding-bottom: 1vw;
+    display: block;
+}
+
+.joining-container
+{
+    line-height: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.joining-container-img
+{
+    margin: auto;
+}
+
+.joining-container-img img
+{
+    width: 40vw;
+    padding-top: 3vw;
+}
+
+.joining-container-p
+{
+    text-align: center;
+}
+
+.joining-container-header
+{
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+
+/* ギャラリー */
+.gallery-wrapper
+{
+    padding-bottom: 3vw;
+    text-align: center;
+}
+
+.gallery-wrapper-header
+{
+    text-decoration: underline;
+    font-size: 3vw;
+}
+
+.galleries-container
+{
+    padding: 0vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-container
+{
+    width: 30vw;
+}
+
+.gallery-container img
+{
+    width: 25vw;
+}
+
+/* ここで横幅を変える */
+.gallery-container-p
+{
+    width: 25vw;
+    margin: 0 auto;
+}
+
+.gallery-container-p-content
+{
+    font-size: 1.3vw;
+    line-height: 2.3vw;
+    text-align: left;
+}
+
+
+footer
+{
+    height: 13vw;
+    width: 100%;
+    background-color: rgba(53, 53, 53, 0.9);
+    text-align: center;
+    bottom: 0;
+    color: white;
+}
+
+footer img
+{
+    width: 20vw;
+    margin-top: 3vw;
+}
+
+footer p
+{
+    margin-top: 2vw;
+    font-size: 1.3vw;
+}
